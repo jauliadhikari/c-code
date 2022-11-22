@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+void sel(int arr[],int size)
+{ 
+    int min,j;
+    for(int i=0;i<size-1;i++)
+    {   min=i;
+    	for(int j=i+1;j<size;j++)
+    	{
+    		if(arr[j]<arr[min])
+    		{
+    			min=j;
+			}
+		}swap(arr[min],arr[i]);
+	}
+	
+}
+void print(int arr[],int size)
+{
+	for(int i=0;i<size;i++)
+	{
+		cout<<arr[i]<<endl;
+	}
+}
+int main()
+{
+	int arr[6]={34,23,21,43,90,45};
+	sel(arr,6);
+	print(arr,6);
+}

@@ -1,0 +1,21 @@
+Exploratory Data Analysis(EDA) Assignment
+
+Topic: To visualise how crop production is changed over the years (1997-2015) in India.
+ 
+Dataset Name : Crop production in India
+ Source: Kaggle.com
+
+Key questions to be answered:
+How has crop production yield changed from 1997 to 2015?
+
+Over time, what are the major production trends been across the states?
+
+Are there any patterns that can be observed between total crop production and value of production every year?
+How has value of production, which in some sense could be tied to demand, changed every year?
+
+Draw following plots
+1.Looking at the relationship between numerical variables using pair plots and correlation plots
+
+2.Let explore the categorical features - state and year
+
+3.See what effect, the declining production trend has had on the value of production
